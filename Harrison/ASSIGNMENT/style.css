@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(129, 131, 18, 0.705);
+}
+
+/* Navbar*/
+.navbar{
+    background-color:rgb(42, 11, 218);
+}
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    border: 4px;
+}
+
+.navbar a {
+    color:rgb(177, 121, 121);
+    padding: 2px;
+    margin: 0, 5px;
+    border: 0px;
+}
+
+.wrapper {
+    border: 2px;
+    display: inline-flex;
+    padding-top: 5%;
+    
+}
+
+.leftbar{
+    background-color: rgb(122, 81, 81);
+    padding-top: 2%
+}
+
+.footer {
+    padding-left: 60px;
+}
+
+.card{
+    background-color: rgb(218, 68, 68);
+    color: #333;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    outline: #333;
+}
+
+.submit{
+    color: rgb(228, 125, 125);
+    text-align: center;
+
+}
+

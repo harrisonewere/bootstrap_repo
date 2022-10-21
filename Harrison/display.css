@@ -1,0 +1,12 @@
+body{
+  display:block;
+}
+
+.wrapper{
+  width:100%;
+}
+
+.wrapper p {
+  display:inline-block;
+  width: 300px;
+}

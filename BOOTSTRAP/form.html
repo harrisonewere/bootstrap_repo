@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Form | Page</title>
+   
+</head>
+<body>
+    <div class="row">
+        <div class="col-6 p-3 card border border-dark bg-success m-3 text-white">
+            <form action="">
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email Address</label>
+                    <input type="email" class="form-control form-control-lg " placeholder="Enter Email" name="Email" id="Email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="col-form-label">Password</label>
+                    <input type="password" class="form-control form-control-sm" placeholder="Enter password" name="password" id="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="color" class="form-label">Color</label>
+                    <input type="color" class="form-control form-control-color"  name="color" id="color">
+                </div>
+                <div>
+                    <label for="file">Profile Picture</label>
+                    <input type="file" name="image" id="file" class="form-control">
+                    
+                </div><br>
+                <div class="mb-3">
+                    <label class="form-label" for="best-meal">BEST MEAL</label>
+                    <select name="best-meal" id="best-meal" class="form-select">
+                        <option selected>Choose a Meal</option>
+                        <option value="Rice">Rice</option>
+                        <option value="Beans">Beans</option>
+                        <option value="Garri">Garri</option>
+                        <option value="Yam">Yam</option>
+                        <option value="Kpomo">Kpomo</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                   <h6>Educational Qualification</h6>
+                   <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="Qualification" id="fslc" checked>
+                    <label for="fslc">Primary 6</label>
+                   </div>
+                   <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="Qualification" id="SSCE" >
+                    <label for="SSCE">WAEC</label>
+                   </div>
+                   <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="Qualification" id="ND">
+                    <label for="ND">National Diploma</label>
+                   </div>
+                   <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="Qualification" id="BSc">
+                    <label for="BSc">BSc</label>
+                   </div>
+                </div>
+                <div class="mb-3">
+                    <h6>Gender</h6>
+                    <div class="form-check">
+                     <input type="radio" class="form-check-input" name="Gender" id="Male" checked>
+                     <label for="Male">Male</label>
+                    </div>
+                    <div class="form-check">
+                     <input type="radio" class="form-check-input" name="Gender" id="SSCE" >
+                     <label for="SSCE">Female</label>
+                    </div>
+                    <div class="form-check">
+                     <input type="radio" class="form-check-input" name="Gender" id="Confused">
+                     <label for="Confused">Confused</label>
+                    </div>
+                    
+                 </div>
+    
+                <br>
+                <div class="mb-3">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-6 p-3">
+    NIgeria My country
+        </div>
+    </div>
+    
+   
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
